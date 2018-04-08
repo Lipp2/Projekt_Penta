@@ -11,6 +11,7 @@
     <title>Testseite</title>
 
   </head>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav id="#Navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#Home">Home</a>
@@ -32,6 +33,7 @@
             </ul>
         </div>
     </nav>
+
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
