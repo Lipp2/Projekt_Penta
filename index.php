@@ -1,6 +1,7 @@
 <?php
-include "header.php";
+require("header.php");
 ?>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav id="#Navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#Home">Home</a>
@@ -25,6 +26,6 @@ include "header.php";
 
     <h1>Hello, world!</h1>
 
-    <?php
-    include "footer.php";
-    ?>
+<?php
+require("footer.php");
+?>
