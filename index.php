@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 <?php
 include "header.php";
 ?>
-=======
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,7 +25,7 @@ include "header.php";
     <title>Testseite</title>
 
   </head>
->>>>>>> f5502527ff26c3cf57d527f03d720c766a1e9858
+
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav id="#Navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
