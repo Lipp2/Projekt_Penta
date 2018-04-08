@@ -8,11 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<<<<<<< HEAD
     <title>Felix ist geil</title>
 =======
     <title>deineomma</title>
->>>>>>> 66c05353531bd2aa5c673c052dbe50dcadca6108
   </head>
   <body>
     <h1>Hello, world!</h1>
