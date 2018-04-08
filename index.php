@@ -6,16 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Testseite</title>
 
   </head>
-<<<<<<< HEAD
-  
-  <body>
-=======
+
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav id="#Navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#Home">Home</a>
@@ -37,7 +33,7 @@
             </ul>
         </div>
     </nav>
->>>>>>> 1ad77aecac9347082fa70d48a4fbb1d12cf136a1
+
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
