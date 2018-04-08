@@ -12,8 +12,11 @@
     <title>Testseite</title>
 
   </head>
+<<<<<<< HEAD
   
   <body>
+=======
+>>>>>>> 1ad77aecac9347082fa70d48a4fbb1d12cf136a1
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
