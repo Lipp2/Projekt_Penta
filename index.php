@@ -25,11 +25,13 @@ require("header.php");
   </nav>
   <!--100% * 100% Willkommensfenster mit nem Hintergrundbild und nen Jumbotron in Mitte zentiert gelegt-->
   <!--Welcome Message-->
-  <div class="row align-items-center">
-    <div class="col-sm-12">
-      <div class="jumbotron">
-        <h1 class="display-3">Test</h1>
-        <p class="lead">Test blubblerfasel</p>
+  <div class="">
+    <div class="">
+      <div class="jumbotron background-img-1 text-center m-0">
+      <div class="jumbo-welcome rounded justify-content-center">
+          <h1 class="display-3 text-light">Welcome!</h1>
+          <p class="lead text-light">This website is awesome as fuckboi</p>
+      </div>
       </div>
     </div>
   </div>
