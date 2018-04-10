@@ -1,14 +1,22 @@
-.background-img-1 {
-  background-image: url(https://i.pinimg.com/originals/aa/c4/38/aac438c8db56888b01c503e049bd71c8.jpg) !important;
-  height: -webkit-fill-available;
+.background-img-1, .background-img-2 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.background-img-1 {
+  background-image: url(https://images4.alphacoders.com/713/thumb-1920-71316.jpg);
+  height: -webkit-fill-available;
+}
+
+.background-img-2 {
+  margin: 1000px;
+  background-image: url(https://images.alphacoders.com/506/thumb-1920-506874.jpg);
+}
+
 .jumbo-welcome {
-  background-color: rgba(0 ,0 ,0 ,0.7);
+  background-color: rgba(255 ,255 ,255 ,0.7);
   margin-top:20em;
   margin-left:auto;
   margin-right:auto;
@@ -30,9 +38,8 @@ nav{
 /* news */
 section {
   padding: 30px 0;
-  float: left;
   width: 100%;
-  background-color: rgba(0 ,0 ,0 ,0.7);
+  background-color: rgb(100, 100, 100);
 }
 
 .top-slider .carousel-indicators{bottom: 0}

@@ -4,21 +4,21 @@
 
 
 /* news */
-.carousel-indicators li {
-    height: 30px !important;
-    margin-top: 100% !important;
+#news .carousel-indicators li {
+    height: 10px !important;
+    margin-top: 47% !important;
 }
 
-.carousel-indicators {
+#news .carousel-indicators {
   position: absolute !important;
   top: 150px;
 }
 
-.container {
+#news .container {
   max-width: 80% !important;
 }
 
-.card {
+#news .card {
   height: auto !important;
 }
 
