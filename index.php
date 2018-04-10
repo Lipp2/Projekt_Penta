@@ -39,21 +39,18 @@ require("header.php");
         <div class="col-md-3">
           <div class="card"> <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics.jpg" alt="">
             <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">News</span> </div>
-<<<<<<< HEAD
               <div class="card-body">
                 <div class="news-title">
                   <h2 class=" title-small"><a href="#">Syria war: Why the battle for Aleppo matters</a></h2>
                 </div>
                 <p class="card-text"><small class="text-time"><em>3 mins ago</em></small></p>
               </div>
-=======
             <div class="card-body">
               <div class="news-title">
                 <h2 class=" title-small"><a href="#">Syria war: Why the battle for Aleppo matters</a></h2>
               </div>
               <p class="card-text"><small class="text-time"><em>3 mins ago</em></small></p>
             </div>
->>>>>>> be289f49f328eedb9599b4d38c7269890ce3fd05
           </div>
         </div>
         <div class="col-md-3">
@@ -67,7 +64,6 @@ require("header.php");
             </div>
           </div>
         </div>
-<<<<<<< HEAD
         <div class="col-md-6 top-slider">
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
@@ -112,7 +108,6 @@ require("header.php");
                   <div></div>
                 </div>
               </div>
-=======
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -128,7 +123,6 @@ require("header.php");
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="..." alt="Third slide">
->>>>>>> be289f49f328eedb9599b4d38c7269890ce3fd05
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
