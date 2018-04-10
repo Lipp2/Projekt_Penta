@@ -1,6 +1,10 @@
 .background-img-1 {
   background-image: url(https://i.pinimg.com/originals/aa/c4/38/aac438c8db56888b01c503e049bd71c8.jpg) !important;
   height: -webkit-fill-available;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbo-welcome {
