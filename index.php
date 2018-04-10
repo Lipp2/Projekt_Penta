@@ -37,18 +37,18 @@ require("header.php");
 
   <!-- News Section -->
   <section id="news" class="banner-sec">
-          <div class="container">
+    <div class="container">
       <div class="row">
-              <div class="col-md-3">
+        <div class="col-md-3">
           <div class="card"> <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics.jpg" alt="">
-                  <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">News</span> </div>
-                  <div class="card-body">
+            <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">News</span> </div>
+            <div class="card-body">
               <div class="news-title">
-                      <h2 class=" title-small"><a href="#">Syria war: Why the battle for Aleppo matters</a></h2>
-                    </div>
+                <h2 class=" title-small"><a href="#">Syria war: Why the battle for Aleppo matters</a></h2>
+              </div>
               <p class="card-text"><small class="text-time"><em>3 mins ago</em></small></p>
             </div>
-                </div>
+          </div>
         </div>
         <div class="col-md-3">
           <div class="card"> <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/business1.jpg" alt="">
@@ -61,52 +61,31 @@ require("header.php");
             </div>
           </div>
         </div>
-        <div class="col-md-6 top-slider">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-
-                  <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                      <div class="news-block">
-                  <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics1.jpg" alt=""></div>
-                  <div class="news-title">
-                          <h2 class=" title-large"><a href="#">Ray madison may struggle to get best from Paul in a 4-2-3-1 formation</a></h2>
-                        </div>
-                  <div class="news-des">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
-                  <div class="time-text"><strong>2h ago</strong></div>
-                  <div></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                      <div class="news-block">
-                  <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/sport1.jpg" alt=""></div>
-                  <div class="news-title">
-                          <h2 class=" title-large"><a href="#">An Alternative Form of Mental Health Care Gains a Foothold</a></h2>
-                        </div>
-                  <div class="news-des">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
-                  <div class="time-text"><strong>2h ago</strong></div>
-                  <div></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                      <div class="news-block">
-                  <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/health.jpg" alt=""></div>
-                  <div class="news-title">
-                          <h2 class=" title-large"><a href="#">Key Republican Senator Says She Will Not Vote for former president!</a></h2>
-                        </div>
-                  <div class="news-des">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
-                  <div class="time-text"><strong>2h ago</strong></div>
-                  <div></div>
-                </div>
-              </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="..." alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Third slide">
             </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
