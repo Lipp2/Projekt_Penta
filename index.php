@@ -36,7 +36,7 @@ require("header.php");
   <section id="news" class="banner-sec">
     <div class="row">
       <div class="container-fluid">
-        <div id="newsJumbotron" class="p-2 background-img-2 text-center m-0">
+        <div id="newsJumbotron" class="pt-2 background-img-2 text-center m-0">
           <div id="newsJumboWelcome" class="jumbo-welcome rounded justify-content-center">
             <div class="col-md-3">
               <div class="card"> <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics.jpg" alt="">
@@ -62,59 +62,49 @@ require("header.php");
             </div>
             <div class="col-md-6 top-slider">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                      </ol>
+
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
 
                       <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics1.jpg" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/sport1.jpg" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/health.jpg" alt="">
-                  </div>
-
-
-
-                    <!--
-                          <div class="news-block">
-                      <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics1.jpg" alt=""></div>
-                      <div class="news-title">
-                              <h2 class=" title-large"><a href="#">Ray madison may struggle to get best from Paul in a 4-2-3-1 formation</a></h2>
-                            </div>
-                      <div class="news-des text-light">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
-                      <div class="time-text text-light"><strong>2h ago</strong></div>
-                      <div></div>
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics1.jpg" alt="">
+                      <div class="carousel-caption">
+                        <h5>Lorem ipsum 1</h5>
+                        <p>Condimentum ultrices mi est...</p>
+                        <div class="time-text text-light"><strong>2h ago</strong></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                          <div class="news-block">
-                      <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/sport1.jpg" alt=""></div>
-                      <div class="news-title">
-                              <h2 class=" title-large"><a href="#">An Alternative Form of Mental Health Care Gains a Foothold</a></h2>
-                            </div>
-                      <div class="news-des text-light">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
-                      <div class="time-text text-light"><strong>2h ago</strong></div>
-                      <div></div>
+                    <div class="carousel-item">
+                      <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/sport1.jpg" alt="">
+                      <div class="carousel-caption">
+                        <h5>Lorem ipsum 2</h5>
+                        <p>Condimentum ultrices mi est a arcu...</p>
+                        <div class="time-text text-light"><strong>3h ago</strong></div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                          <div class="news-block">
-                      <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/health.jpg" alt=""></div>
-                      <div class="news-title">
-                              <h2 class=" title-large"><a href="#">Key Republican Senator Says She Will Not Vote for former president!</a></h2>
-                            </div>
-                      <div class="news-des text-light">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
-                      <div class="time-text text-light"><strong>2h ago</strong></div>
-                      <div></div>
-                    </div>-->
+                    <div class="carousel-item">
+                      <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/health.jpg" alt="">
+                      <div class="carousel-caption">
+                        <h5>Lorem ipsum 3</h5>
+                        <p>Condimentum ultrices mi est a...</p>
+                        <div class="time-text text-light"><strong>4h ago</strong></div>
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                   </div>
                 </div>
               </div>
