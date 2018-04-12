@@ -39,9 +39,21 @@ nav{
 section {
   padding: 30px 0;
   width: 100%;
-  background-color: rgb(0, 0, 0);
 }
 
 .top-slider .carousel-indicators{bottom: 0}
 .top-slider .carousel-indicators li{border:1px solid #000;}
 .top-slider .carousel-indicators .active{background:#000;}
+
+.col-md-3, .col-md-6 {
+  float: left;
+}
+
+#newsJumbotron {
+  float: left;
+}
+
+#newsJumboWelcome {
+  max-width: none !important;
+  margin-top: auto !important;
+}
