@@ -36,7 +36,7 @@ require("header.php");
   <section id="news" class="banner-sec">
     <div class="row">
       <div class="container-fluid">
-        <div id="newsJumbotron" class="jumbotron background-img-2 text-center m-0">
+        <div id="newsJumbotron" class="p-2 background-img-2 text-center m-0">
           <div id="newsJumboWelcome" class="jumbo-welcome rounded justify-content-center">
             <div class="col-md-3">
               <div class="card"> <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics.jpg" alt="">
@@ -47,12 +47,6 @@ require("header.php");
                     </div>
                     <p class="card-text"><small class="text-time"><em>3 mins ago</em></small></p>
                   </div>
-                <div class="card-body">
-                  <div class="news-title">
-                    <h2 class=" title-small"><a href="#">Syria war: Why the battle for Aleppo matters</a></h2>
-                  </div>
-                  <p class="card-text"><small class="text-time"><em>3 mins ago</em></small></p>
-                </div>
               </div>
             </div>
             <div class="col-md-3">
@@ -78,6 +72,18 @@ require("header.php");
                       <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
+                    <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics1.jpg" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/sport1.jpg" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/health.jpg" alt="">
+                  </div>
+
+
+
+                    <!--
                           <div class="news-block">
                       <div class="news-media"><img class="img-fluid" src="http://grafreez.com/wp-content/temp_demos/river/img/politics1.jpg" alt=""></div>
                       <div class="news-title">
@@ -108,7 +114,7 @@ require("header.php");
                       <div class="news-des text-light">Condimentum ultrices mi est a arcu at cum a elementum per cum turpis dui vulputate vestibulum in vehicula montes vel. Mauris nam suspendisse consectetur mus...</div>
                       <div class="time-text text-light"><strong>2h ago</strong></div>
                       <div></div>
-                    </div>
+                    </div>-->
                   </div>
                 </div>
               </div>
