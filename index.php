@@ -112,7 +112,6 @@ require("header.php");
           </div>
         </div>
       </div>
-      </div>
     </section>
     <!--Teams-->
     <section id="team">
